@@ -11,7 +11,7 @@ metadata:
   title:
     default: Liquid Dreams
     template: '%s — Liquid Dreams'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "A vibrant space for self-expression with unique music, hypnotic visuals, and emerging DJs from around the world."
   robots:
     index: true
     follow: true
