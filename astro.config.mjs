@@ -35,6 +35,7 @@ export default defineConfig({
     mdx(),
     icon({
       include: {
+        emojione: ['*'],
         tabler: ['*'],
         'flat-color-icons': [
           'template',
