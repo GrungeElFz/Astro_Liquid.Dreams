@@ -1,6 +1,6 @@
 site:
   name: Liquid Dreams
-  site: 'https://astrowind.vercel.app'
+  site: 'https://liquiddreams.vercel.app'
   base: '/'
   trailingSlash: false
 
