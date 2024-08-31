@@ -69,10 +69,10 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
+    // {
+    //   text: 'Widgets',
+    //   href: '#',
+    // },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
