@@ -10,7 +10,7 @@ export const headerData = {
           href: getPermalink('/#mission'),
         },
         {
-          text: 'About us',
+          text: 'History',
           href: getPermalink('/#history'),
         },
         {
