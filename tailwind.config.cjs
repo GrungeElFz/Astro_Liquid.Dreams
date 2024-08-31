@@ -20,5 +20,6 @@ module.exports = {
     },
   },
   plugins: [require('daisyui'), typographyPlugin],
+  daisyui: {prefix: "daisy-"},
   darkMode: 'class',
 };
