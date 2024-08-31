@@ -16,31 +16,31 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Pages',
       links: [
         {
           text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/pages/lead-generation'),
         },
         {
           text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          href: getPermalink('/pages/sales'),
         },
         {
           text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          href: getPermalink('/pages/click-through'),
         },
         {
           text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/pages/product'),
         },
         {
           text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
+          href: getPermalink('/pages/pre-launch'),
         },
         {
           text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          href: getPermalink('/pages/subscription'),
         },
       ],
     },
