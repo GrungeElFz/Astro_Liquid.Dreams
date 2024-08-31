@@ -13,10 +13,6 @@ export const headerData = {
           text: 'History',
           href: getPermalink('/#history'),
         },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
       ],
     },
     {
