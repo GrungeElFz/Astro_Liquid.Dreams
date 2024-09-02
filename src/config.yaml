@@ -1,5 +1,5 @@
 site:
-  name: Liquid Dreams
+  name: LiQuid Dreams
   site: 'https://liquiddreams.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Liquid Dreams
-    template: '%s — Liquid Dreams'
+    default: LiQuid Dreams
+    template: '%s — LiQuid Dreams'
   description: "A vibrant space for self-expression with unique music, hypnotic visuals, and emerging DJs from around the world."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Liquid Dreams
+    site_name: LiQuid Dreams
     images:
       - url: '~/assets/images/Logo_LiquidDreams_Volume.3.png'
         width: 1200
