@@ -1,0 +1,52 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Liquid Dreams Volume 03',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get tickets',
+        href: 'https://github.com/onwidget/astrowind',
+        target: '_blank',
+        icon: 'tabler:ticket',
+      },
+      { text: 'Lineups', href: '#features' },
+    ]}
+    image={{ src: '~/assets/images/Logo_LiquidDreams_ringOnly_compressed.png', alt: 'Liquid Dreams' }}
+  >
+    <Fragment slot="title">
+      Liquid Dreams
+      <span class="text-accent dark:text-white highlight"> Volume 03</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span>Saturday, September 14, 2024</span>
+      <br>
+      <span>Urbana, Illinois</span>
+    </Fragment>
+  </Hero>
+
+  <!-- <CallToAction
+    title="Coming soon"
+    subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Download Template',
+        href: 'https://github.com/onwidget/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
+  /> -->
+</Layout>

@@ -19,6 +19,10 @@ export const headerData = {
       text: 'Pages',
       links: [
         {
+          text: 'test',
+          href: getPermalink('/pages/liquid-dreams-volume-3'),
+        },
+        {
           text: 'Lead Generation',
           href: getPermalink('/pages/lead-generation'),
         },
