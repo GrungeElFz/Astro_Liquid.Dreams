@@ -22,6 +22,14 @@ export const headerData = {
           text: 'Liquid Dreams Volume 3',
           href: getPermalink('/events/liquid-dreams-volume-3'),
         },
+        {
+          text: 'L̶i̶q̶u̶i̶d̶ D̶r̶e̶a̶m̶s̶ V̶o̶l̶u̶m̶e̶ 2̶ - Past Event',
+          href: getPermalink('/events'),
+        },
+        {
+          text: 'L̶i̶q̶u̶i̶d̶ D̶r̶e̶a̶m̶s̶ V̶o̶l̶u̶m̶e̶ 1̶ - Past Event',
+          href: getPermalink('/events'),
+        },
       ],
     },
     {
