@@ -3,6 +3,7 @@ import Layout from '~/layouts/LandingLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Steps from '~/components/widgets/Steps.astro';
 
 const metadata = {
   title: 'Liquid Dreams Volume 03',
@@ -49,4 +50,37 @@ const metadata = {
       },
     ]}
   /> -->
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Payment Instructions"
+    items={[
+      {
+        title: 'Step 1: Submit your payment through Venmo</span>',
+        description: '@liquiddreamscu (4 digits verification code: 1795)',
+        icon: 'tabler:square-rounded-letter-v',
+      },
+      {
+        title: 'Step 2: Submit your information ',
+        description:
+          'In the “What is it for?” section, include the full name and email address of the attendee. One name allowed per transaction.',
+        icon: 'tabler:file-text',
+      },
+      {
+        title: 'Step 3: Confirmation',
+        description:
+          'After we receive your payment, you will get a confirmation email from us on Thursday, September 12th (09/12/2024) with the event details.',
+        icon: 'tabler:ticket',
+      },
+      {
+        title: 'Step 4: Get ready to dance!',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/QR_LiquidDreams_VenmoQRC.jpg',
+      alt: '@liquiddreamscu Venmo QR Code',
+    }}
+  />
 </Layout>
