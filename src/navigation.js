@@ -22,30 +22,6 @@ export const headerData = {
           text: 'Liquid Dreams Volume 3',
           href: getPermalink('/events/liquid-dreams-volume-3'),
         },
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/events/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/events/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/events/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/events/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/events/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/events/subscription'),
-        },
       ],
     },
     {
