@@ -19,7 +19,7 @@ export const headerData = {
       text: 'Events',
       links: [
         {
-          text: 'test',
+          text: 'Liquid Dreams Volume 3',
           href: getPermalink('/events/liquid-dreams-volume-3'),
         },
         {
