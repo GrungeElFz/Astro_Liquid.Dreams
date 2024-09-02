@@ -16,35 +16,35 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Events',
       links: [
         {
           text: 'test',
-          href: getPermalink('/pages/liquid-dreams-volume-3'),
+          href: getPermalink('/events/liquid-dreams-volume-3'),
         },
         {
           text: 'Lead Generation',
-          href: getPermalink('/pages/lead-generation'),
+          href: getPermalink('/events/lead-generation'),
         },
         {
           text: 'Long-form Sales',
-          href: getPermalink('/pages/sales'),
+          href: getPermalink('/events/sales'),
         },
         {
           text: 'Click-Through',
-          href: getPermalink('/pages/click-through'),
+          href: getPermalink('/events/click-through'),
         },
         {
           text: 'Product Details (or Services)',
-          href: getPermalink('/pages/product'),
+          href: getPermalink('/events/product'),
         },
         {
           text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/pages/pre-launch'),
+          href: getPermalink('/events/pre-launch'),
         },
         {
           text: 'Subscription',
-          href: getPermalink('/pages/subscription'),
+          href: getPermalink('/events/subscription'),
         },
       ],
     },
