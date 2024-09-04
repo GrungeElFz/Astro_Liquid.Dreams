@@ -68,7 +68,7 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Homes',
+      title: 'Home',
       links: [
         { text: 'LiQuid Dreams', href: '#' },
         { text: 'Mission', href: '#mission' },
@@ -77,7 +77,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Events',
+      title: 'Event',
       links: [
         { text: 'VOLUME 3', href: getPermalink('/events/liquid-dreams-volume-3') },
         { text: 'V̶O̶L̶U̶M̶E̶ ̶2̶ - Past Event', href: getPermalink('/events/liquid-dreams-volume-2') },
@@ -93,7 +93,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Supports',
+      title: 'Support',
       links: [
         {
           text: 'liquiddreamscu@gmail.com',
