@@ -85,13 +85,10 @@ export const footerData = {
       ],
     },
     {
-      title: 'Support',
+      title: 'Supports',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'liquiddreamscu@gmail.com', href: 'mailto:liquiddreamscu@gmail.com?subject=[Inquiry]%20Your%20Subject&body=Hi,%0D%0A%0D%0AI%20have%20a%20question%20regarding...' },
+        { text: '01000111@0x01000111.io', href: 'mailto:01000111@0x01000111.io?subject=[Inquiry%20%7C%20LiQuid%20Dreams]%20Your%20Subject&body=Hi,%0D%0A%0D%0AI%20have%20a%20question%20regarding...' },
       ],
     },
   ],
