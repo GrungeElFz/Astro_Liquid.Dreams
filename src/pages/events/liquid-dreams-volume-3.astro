@@ -4,6 +4,7 @@ import Layout from '~/layouts/LandingLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Steps from '~/components/widgets/Steps.astro';
+import { Icon } from 'astro-icon/components';
 
 const metadata = {
   title: 'LiQuid Dreams VOLUME 3',
@@ -45,6 +46,7 @@ const metadata = {
         onmouseover="this.style.textDecoration='underline'"
         onmouseout="this.style.textDecoration='none'"
       >
+        <Icon name="tabler:map-pin-up" class="inline-flex items-center dark:text-slate-300 mb-1"/>
         Gallery Art Bar
       </a>
     </Fragment>
