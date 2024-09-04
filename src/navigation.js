@@ -85,6 +85,14 @@ export const footerData = {
       ],
     },
     {
+      title: 'Socials',
+      links: [
+        { text: 'Howz', href: getPermalink('https://instagram.com/howzhowzhowz') },
+        { text: 'TUKUPI', href: getPermalink('https://instagram.com/tukupi.live') },
+        { text: '0x01000111', href: getPermalink('https://instagram.com/0x01000111') },
+      ],
+    },
+    {
       title: 'Supports',
       links: [
         { text: 'liquiddreamscu@gmail.com', href: 'mailto:liquiddreamscu@gmail.com?subject=[Inquiry]%20Your%20Subject&body=Hi,%0D%0A%0D%0AI%20have%20a%20question%20regarding...' },
