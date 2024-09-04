@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: LiQuid Dreams
     images:
-      - url: '~/assets/images/Poster_LiquidDreams_Volume.3.jpg'
+      - url: '~/assets/images/Poster_LiquidDreams_Volume.3_Square.jpg'
         width: 800
         height: 800
     type: website
