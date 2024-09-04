@@ -77,13 +77,11 @@ export const footerData = {
       ],
     },
     {
-      title: 'Platform',
+      title: 'Events',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'VOLUME 3', href: getPermalink('/events/liquid-dreams-volume-3') },
+        { text: 'V̶O̶L̶U̶M̶E̶ ̶2̶ - Past Event', href: getPermalink('/events/liquid-dreams-volume-2') },
+        { text: 'V̶O̶L̶U̶M̶E̶ ̶1̶ - Past Event', href: getPermalink('/events/liquid-dreams-volume-1') },
       ],
     },
     {
