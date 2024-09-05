@@ -93,7 +93,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Socials',
+      title: 'Social',
       links: [
         { text: 'Howz', href: getPermalink('https://instagram.com/howzhowzhowz') },
         { text: 'TUKUPI', href: getPermalink('https://instagram.com/tukupi.live') },
