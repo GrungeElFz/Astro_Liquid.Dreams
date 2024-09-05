@@ -59,6 +59,10 @@ export const headerData = {
           text: 'Rafael Manuel',
           href: getPermalink('artist_rafaelmanuel', 'post'),
         },
+        {
+          text: 'Norman Hernandez',
+          href: getPermalink('artist_normanhernandez', 'post'),
+        },
       ],
     },
     // {
