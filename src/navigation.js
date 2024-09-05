@@ -55,6 +55,10 @@ export const headerData = {
           text: 'Santa Cecilia',
           href: getPermalink('artist_santacecilia', 'post'),
         },
+        {
+          text: 'Rafael Manuel',
+          href: getPermalink('artist_rafaelmanuel', 'post'),
+        },
       ],
     },
     // {
