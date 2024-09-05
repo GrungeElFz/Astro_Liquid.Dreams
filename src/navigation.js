@@ -41,7 +41,7 @@ export const headerData = {
         },
         {
           text: 'TUKUPI',
-          href: getPermalink('artist_TUKUPI', 'post'),
+          href: getPermalink('artist_tukupi', 'post'),
         },
         {
           text: 'Howz',
