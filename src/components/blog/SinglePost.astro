@@ -16,6 +16,10 @@ export interface Props {
 }
 
 const { post, url } = Astro.props;
+
+const isSquareImage = post.image && post.image.width === post.image.height;
+const isVerticalImage = post.image && post.image.width < post.image.height;
+const isHorizontalImage = post.image && post.image.width > post.image.height;
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -68,17 +72,50 @@ const { post, url } = Astro.props;
 
       {
         post.image ? (
-          <Image
-            src={post.image}
-            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-            widths={[400, 900]}
-            sizes="(max-width: 900px) 400px, 900px"
-            alt={post?.excerpt || ''}
-            width={900}
-            height={506}
-            loading="eager"
-            decoding="async"
-          />
+          <div class="flex max-w-full lg:max-w-[1080px] w-auto h-auto mx-auto mb-6">
+            {isSquareImage && (
+              <Image
+                src={post.image}
+                class="max-w-full mx-auto sm:rounded-md w-auto h-auto"
+                widths={[400, 600]}
+                sizes="(max-width: 600px) 100vw, 600px"
+                alt={post?.excerpt || ''}
+                width={600}
+                height={600}
+                aspectRatio="1:1"
+                loading="eager"
+                decoding="async"
+              />
+            )}
+            {isHorizontalImage && (
+              <Image
+                src={post.image}
+                class="max-w-full mx-auto sm:rounded-md w-auto h-auto"
+                widths={[200400, 900]}
+                sizes="(max-width: 900px) 100vw, 900px"
+                alt={post?.excerpt || ''}
+                width={1080}
+                height={720}
+                aspectRatio="3:2"
+                loading="eager"
+                decoding="async"
+              />
+            )}
+            {isVerticalImage && (
+              <Image
+                src={post.image}
+                class="max-w-full mx-auto sm:rounded-md w-auto h-auto"
+                widths={[400]}
+                sizes="(max-width: 720px) 100vw, 720px"
+                alt={post?.excerpt || ''}
+                width={720}
+                height={1080}
+                aspectRatio="2:3"
+                loading="eager"
+                decoding="async"
+              />
+            )}
+          </div>
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
             <div class="border-t dark:border-slate-700" />
