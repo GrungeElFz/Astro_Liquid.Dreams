@@ -5,6 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import { Icon } from 'astro-icon/components';
+import Features from '~/components/widgets/Features.astro';
 
 const metadata = {
   title: 'LiQuid Dreams VOLUME 3',
@@ -51,6 +52,53 @@ const metadata = {
       </a>
     </Fragment>
   </Hero>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="lineup"
+    tagline="Lineup"
+    title="Dream States"
+    subtitle="Dream Weavers: A Sonic Journey Through the Night"
+    items={[
+      {
+        title: '20:00 - 21:00 | Santa Cecilia',
+        description:
+          'Ignite our dreams with House rhythms into the night of sonic exploration.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: '21:00 - 22:00 | Norman Hernandez',
+        description:
+          'House music through the Black diaspora - Jazz, Jungle, Afrobeat, and Dub flavors.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: '22:00 - 23:00 | Howz',
+        description:
+          'A sonic tapestry of breakbeat, jungle, and club sounds, weaving a tapestry of infectious grooves.',
+        icon: 'tabler:brand-tailwind',
+      },
+      {
+        title: '23:00 - 00:00 | TUKUPI',
+        description:
+          'Soulful House melodies to transcend you through the twilight hours.',
+        icon: 'tabler:components',
+      },
+      {
+        title: '00:00 - 01:00 | 0x01000111',
+        description:
+          'Raw hypnotic, driving Techno to plunge you into a trance state during the darkest hours.',
+        icon: 'tabler:list-check',
+      },
+      {
+        title: '01:00 - 02:00 | Rafael Manuel',
+        description:
+          'Uplifting House rhythms to descend you into our final dreams.',
+        icon: 'tabler:arrows-right-left',
+      },
+    ]}
+  />
 
   <!-- CallToAction Widget *********** -->
 
