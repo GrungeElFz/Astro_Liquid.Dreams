@@ -25,6 +25,7 @@
     "astro": "^4.13.3",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.0",
+    "ics": "^3.7.6",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "unpic": "^3.18.0"
