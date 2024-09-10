@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 14.6.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20240910T015433Z
+DESCRIPTION:LiQuid Dreams VOLUME 3\n\nDate:  Sat\, September 14\, 2024\n
+ Time:  08:00 PM - 02:00 AM\nLocation:  Gallery Art Bar\n\n___\n\n\nEvent
+  Schedule:\n20:00 - 21:00 | Norman Hernandez\n• House music through the 
+ Black diaspora - Jazz\, Jungle\, Afrobeat\, and Dub flavors.\n\n21:00 - 
+ 22:00 | Santa Cecilia\n• Ignite our dreams with House rhythms into the n
+ ight of sonic exploration.\n\n22:00 - 23:00 | Howz\n• A sonic tapestry o
+ f breakbeat\, jungle\, and club sounds\, weaving a tapestry of infectiou
+ s grooves.\n\n23:00 - 00:00 | TUKUPI\n• Soulful House melodies to transc
+ end you through the twilight hours.\n\n00:00 - 01:00 | 0x01000111\n• Raw
+  hypnotic\, driving Techno to plunge you into a trance state during the 
+ darkest hours.\n\n01:00 - 02:00 | Rafael Manuel\n• Uplifting House rhyth
+ ms to descend you into our final dreams.
+DTEND;TZID=America/Chicago:20240915T020000
+DTSTAMP:20240910T015725Z
+DTSTART;TZID=America/Chicago:20240914T200000
+LAST-MODIFIED:20240910T015433Z
+LOCATION:119 W Main St\, Urbana\, IL 61801
+SEQUENCE:0
+SUMMARY:LiQuid Dreams VOLUME 3
+TRANSP:OPAQUE
+TZID:America/Chicago
+UID:052b14ec-c45c-4879-af4f-6f5e9e338167
+URL;VALUE=URI:https://liquiddreams.vercel.app
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT1H
+UID:8f9f2fe2-b52f-48b0-88e3-b4a307502b0a
+X-WR-ALARMUID:8f9f2fe2-b52f-48b0-88e3-b4a307502b0a
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-P1D
+UID:789f33b9-a514-4be4-836a-edad39c83c01
+X-WR-ALARMUID:789f33b9-a514-4be4-836a-edad39c83c01
+END:VALARM
+END:VEVENT
+END:VCALENDAR
