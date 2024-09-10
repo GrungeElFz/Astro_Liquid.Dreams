@@ -6,6 +6,7 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import { Icon } from 'astro-icon/components';
 import Features from '~/components/widgets/Features.astro';
+import Button from '~/components/ui/Button.astro';
 
 const metadata = {
   title: 'LiQuid Dreams VOLUME 3',
@@ -13,6 +14,34 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <!-- Alpha Version: Calendar Modal * -->
+
+  <dialog id="calendarModal" class="daisy-modal daisy-modal-bottom sm:daisy-modal-middle">
+    <div class="daisy-modal-box">
+      <h3 class="text-lg font-bold">Add the event to your calendar</h3>
+      <div class="flex gap-3 mt-10">
+        <Button href="/ics/event_liquid-dreams-volume-3.ics">Apple Calendar</Button>
+        <Button
+          href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240915T010000Z%2F20240915T070000Z&details=LiQuid%20Dreams%20VOLUME%203%0A%0ADate%3A%20%20Sat%2C%20September%2014%2C%202024%0ATime%3A%20%2008%3A00%20PM%20-%2002%3A00%20AM%0ALocation%3A%20%20Gallery%20Art%20Bar%0A%0A___%0A%0A%0AEvent%20Schedule%3A%0A20%3A00%20-%2021%3A00%20%7C%20Norman%20Hernandez%0A%E2%80%A2%20House%20music%20through%20the%20Black%20diaspora%20-%20Jazz%2C%20Jungle%2C%20Afrobeat%2C%20and%20Dub%20flavors.%0A%0A21%3A00%20-%2022%3A00%20%7C%20Santa%20Cecilia%0A%E2%80%A2%20Ignite%20our%20dreams%20with%20House%20rhythms%20into%20the%20night%20of%20sonic%20exploration.%0A%0A22%3A00%20-%2023%3A00%20%7C%20Howz%0A%E2%80%A2%20A%20sonic%20tapestry%20of%20breakbeat%2C%20jungle%2C%20and%20club%20sounds%2C%20weaving%20a%20tapestry%20of%20infectious%20grooves.%0A%0A23%3A00%20-%2000%3A00%20%7C%20TUKUPI%0A%E2%80%A2%20Soulful%20House%20melodies%20to%20transcend%20you%20through%20the%20twilight%20hours.%0A%0A00%3A00%20-%2001%3A00%20%7C%200x01000111%0A%E2%80%A2%20Raw%20hypnotic%2C%20driving%20Techno%20to%20plunge%20you%20into%20a%20trance%20state%20during%20the%20darkest%20hours.%0A%0A01%3A00%20-%2002%3A00%20%7C%20Rafael%20Manuel%0A%E2%80%A2%20Uplifting%20House%20rhythms%20to%20descend%20you%20into%20our%20final%20dreams.%0A%0A___%0A%0AWebsite%3A%20LiQuid%20Dreams%0Ahttps%3A%2F%2Fliquiddreams.vercel.app%2Fevents%2Fliquid-dreams-volume-3%0A%0AInstagram%3A%20%40LiQuidDreams.Event%0Ahttps%3A%2F%2Finstagram.com%2Fliquiddreams.event%0A%0ATicket%3A%20Posh%0Ahttps%3A%2F%2Fposh.vip%2Fe%2Fliquid-dreams&location=Gallery%20Art%20Bar%2C%20119%20W%20Main%20St%2C%20Urbana%2C%20IL%2061801&text=LiQuid%20Dreams%20VOLUME%203"
+          target="_blank"
+        >
+          Google Calendar
+        </Button>
+        <Button
+          href="https://outlook.live.com/calendar/0/action/compose?allday=false&body=LiQuid%20Dreams%20VOLUME%203%0A%0ADate%3A%20%20Sat%2C%20September%2014%2C%202024%0ATime%3A%20%2008%3A00%20PM%20-%2002%3A00%20AM%0ALocation%3A%20%20Gallery%20Art%20Bar%0A%0A___%0A%0AEvent%20Schedule%3A%0A%0A20%3A00%20-%2021%3A00%20%7C%20Norman%20Hernandez%0A%E2%80%A2%20House%20music%20through%20the%20Black%20diaspora%20-%20Jazz%2C%20Jungle%2C%20Afrobeat%2C%20and%20Dub%20flavors.%0A%0A21%3A00%20-%2022%3A00%20%7C%20Santa%20Cecilia%0A%E2%80%A2%20Ignite%20our%20dreams%20with%20House%20rhythms%20into%20the%20night%20of%20sonic%20exploration.%0A%0A22%3A00%20-%2023%3A00%20%7C%20Howz%0A%E2%80%A2%20A%20sonic%20tapestry%20of%20breakbeat%2C%20jungle%2C%20and%20club%20sounds%2C%20weaving%20a%20tapestry%20of%20infectious%20grooves.%0A%0A23%3A00%20-%2000%3A00%20%7C%20TUKUPI%0A%E2%80%A2%20Soulful%20House%20melodies%20to%20transcend%20you%20through%20the%20twilight%20hours.%0A%0A00%3A00%20-%2001%3A00%20%7C%200x01000111%0A%E2%80%A2%20Raw%20hypnotic%2C%20driving%20Techno%20to%20plunge%20you%20into%20a%20trance%20state%20during%20the%20darkest%20hours.%0A%0A01%3A00%20-%2002%3A00%20%7C%20Rafael%20Manuel%0A%E2%80%A2%20Uplifting%20House%20rhythms%20to%20descend%20you%20into%20our%20final%20dreams.%0A%0A___%0A%0AWebsite%3A%20LiQuid%20Dreams%0Ahttps%3A%2F%2Fliquiddreams.vercel.app%2Fevents%2Fliquid-dreams-volume-3%0A%0AInstagram%3A%20%40LiQuidDreams.Event%0Ahttps%3A%2F%2Finstagram.com%2Fliquiddreams.event%0A%0ATicket%3A%20Posh%0Ahttps%3A%2F%2Fposh.vip%2Fe%2Fliquid-dreams&enddt=2024-09-15T02%3A00%3A00&location=Gallery%20Art%20Bar&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-09-14T20%3A00%3A00&subject=LiQuid%20Dreams%20VOLUME%203"
+          target="_blank"
+        >
+          Outlook Calendar
+        </Button>
+      </div>
+      <div class="daisy-modal-action">
+        <form method="dialog">
+          <button class="daisy-btn daisy-btn-sm daisy-btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Hero Widget ******************* -->
 
   <Hero
@@ -24,7 +53,10 @@ const metadata = {
         target: '_blank',
         icon: 'tabler:ticket',
       },
-      { text: 'Lineup', href: '#lineup' },
+      {
+        text: 'Add to calendar',
+        onclick: `calendarModal.showModal()`,
+      },
     ]}
   >
     <Fragment slot="title">
@@ -115,7 +147,8 @@ const metadata = {
     items={[
       {
         title: 'Step 1: Create Your Profile',
-        description: 'Create a profile on POSH and upload your photos. This allows you to interact with others attending the event and access exclusive content.',
+        description:
+          'Create a profile on POSH and upload your photos. This allows you to interact with others attending the event and access exclusive content.',
         icon: 'tabler:square-rounded-letter-v',
       },
       {
@@ -126,8 +159,7 @@ const metadata = {
       },
       {
         title: 'Step 3: Confirmation',
-        description:
-          'Once your payment is processed, you will receive a confirmation email with your ticket.',
+        description: 'Once your payment is processed, you will receive a confirmation email with your ticket.',
         icon: 'tabler:ticket',
       },
       {
