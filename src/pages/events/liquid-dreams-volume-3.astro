@@ -6,6 +6,7 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import { Icon } from 'astro-icon/components';
 import Features from '~/components/widgets/Features.astro';
+import Button from '~/components/ui/Button.astro';
 
 const metadata = {
   title: 'LiQuid Dreams VOLUME 3',
@@ -17,8 +18,12 @@ const metadata = {
 
   <dialog id="calendarModal" class="daisy-modal daisy-modal-bottom sm:daisy-modal-middle">
     <div class="daisy-modal-box">
-      <h3 class="text-lg font-bold">h3 Lorem</h3>
-      <p class="py-4">P Lorem</p>
+      <h3 class="text-lg font-bold">Add the event to your calendar</h3>
+      <div class="flex gap-3 pt-10">
+        <Button>Apple Calendar</Button>
+        <Button>Google Calendar</Button>
+        <Button>Outlook Calendar</Button>
+      </div>
       <div class="daisy-modal-action">
         <form method="dialog">
           <button class="daisy-btn daisy-btn-sm daisy-btn-ghost absolute right-2 top-2">✕</button>
