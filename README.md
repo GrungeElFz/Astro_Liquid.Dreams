@@ -50,12 +50,12 @@ Project Structure
 │   │       ├── BlogLatestPosts.astro
 │   │       └── ...
 │   ├── content
-│   │   ├── config.ts
-│   │   └── post
-│   │       ├── artist_0x01000111.mdx
-│   │       ├── artist_Howz.mdx
-│   │       ├── artist_Norman.Hernandez.mdx
-│   │       └── ...
+│   │   ├── post
+│   │   │   ├── artist_0x01000111.mdx
+│   │   │   ├── artist_Howz.mdx
+│   │   │   ├── artist_Norman.Hernandez.mdx
+│   │   │   └── ...
+│   │   └── config.ts
 │   ├── layouts
 │   │   ├── LandingLayout.astro
 │   │   ├── Layout.astro
