@@ -4,22 +4,14 @@ Project Structure
 
 ```
 .
-├── LICENSE.md
-├── README.md
-├── astro.config.mjs
-├── eslint.config.js
-├── netlify.toml
-├── package-lock.json
-├── package.json
 ├── public
-│   ├── _headers
 │   ├── decapcms
 │   │   ├── config.yml
 │   │   └── index.html
 │   ├── ics
 │   │   └── event_liquid-dreams-volume-3.ics
+│   ├── _headers
 │   └── robots.txt
-├── sandbox.config.json
 ├── src
 │   ├── assets
 │   │   ├── favicons
@@ -108,7 +100,6 @@ Project Structure
 │   │       ├── Steps.astro
 │   │       ├── Steps2.astro
 │   │       └── Testimonials.astro
-│   ├── config.yaml
 │   ├── content
 │   │   ├── config.ts
 │   │   └── post
@@ -118,46 +109,55 @@ Project Structure
 │   │       ├── artist_Rafael.Manuel.mdx
 │   │       ├── artist_Santa.Cecilia.mdx
 │   │       └── artist_TUKUPI.mdx
-│   ├── env.d.ts
 │   ├── layouts
 │   │   ├── LandingLayout.astro
 │   │   ├── Layout.astro
 │   │   ├── MarkdownLayout.astro
 │   │   └── PageLayout.astro
-│   ├── navigation.js
 │   ├── pages
-│   │   ├── 404.astro
 │   │   ├── [...blog]
-│   │   │   ├── [...page].astro
 │   │   │   ├── [category]
 │   │   │   │   └── [...page].astro
 │   │   │   ├── [tag]
 │   │   │   │   └── [...page].astro
+│   │   │   ├── [...page].astro
 │   │   │   └── index.astro
 │   │   ├── events
 │   │   │   └── liquid-dreams-volume-3.astro
+│   │   ├── 404.astro
 │   │   ├── index.astro
 │   │   ├── privacy.md
 │   │   ├── rss.xml.ts
 │   │   └── terms.md
-│   ├── types.d.ts
-│   └── utils
-│       ├── blog.ts
-│       ├── directories.ts
-│       ├── frontmatter.mjs
-│       ├── images-optimization.ts
-│       ├── images.ts
-│       ├── permalinks.ts
-│       └── utils.ts
-├── tailwind.config.cjs
-├── tsconfig.json
+│   ├── utils
+│   │   ├── blog.ts
+│   │   ├── directories.ts
+│   │   ├── frontmatter.mjs
+│   │   ├── images-optimization.ts
+│   │   ├── images.ts
+│   │   ├── permalinks.ts
+│   │   └── utils.ts
+│   ├── config.yaml
+│   ├── env.d.ts
+│   ├── navigation.js
+│   └── types.d.ts
 ├── vendor
 │   └── integration
+│       ├── utils
+│       │   ├── configBuilder.ts
+│       │   └── loadConfig.ts
 │       ├── index.mjs
 │       ├── types.d.ts
-│       └── utils
-│           ├── configBuilder.ts
-│           └── loadConfig.ts
+├── astro.config.mjs
+├── eslint.config.js
+├── LICENSE.md
+├── netlify.toml
+├── package-lock.json
+├── package.json
+├── README.md
+├── sandbox.config.json
+├── tailwind.config.json
+├── tsconfig.json
 ├── vercel.json
 └── vscode.tailwind.json
 ```
