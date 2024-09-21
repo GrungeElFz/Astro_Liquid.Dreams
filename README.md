@@ -136,6 +136,7 @@ View a live site of the [LiQuid Dreams's Page](http://liquiddreams.vercel.app) .
 ├── vercel.json
 └── vscode.tailwind.json
 ```
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal :
@@ -168,7 +169,7 @@ metadata:
   title:
     default: LiQuid Dreams
     template: '%s — LiQuid Dreams'
-  description: "A vibrant space for self-expression with unique music, hypnotic visuals, and emerging DJs from around the world."
+  description: 'A vibrant space for self-expression with unique music, hypnotic visuals, and emerging DJs from around the world.'
   robots:
     index: true
     follow: true
