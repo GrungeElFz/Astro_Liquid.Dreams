@@ -6,6 +6,12 @@
 
 ![LiQuid Dreams's Landing Page](public/Images/Banner-Liquid.Dreams.Lighthouse.png)
 
+- 🟢 Performance: 95
+- 🟢 Accessibility: 100
+- 🟠 Best Practices: 79
+- 🟢 SEO: 100
+- ⚫️ Progressive Web App: N/A
+
 Project Structure
 
 ```
