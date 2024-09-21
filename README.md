@@ -2,6 +2,10 @@
 
 ![LiQuid Dreams's Landing Page](public/Images/Banner-Liquid.Dreams.png)
 
+## Lighthouse Scores
+
+![LiQuid Dreams's Landing Page](public/Images/Banner-Liquid.Dreams.Lighthouse.png)
+
 Project Structure
 
 ```
