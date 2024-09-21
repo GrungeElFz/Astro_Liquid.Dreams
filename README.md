@@ -235,3 +235,17 @@ To customize Font families, Colors or more Elements refer to the following files
 
 - `src/components/CustomStyles.astro`
 - `src/assets/styles/tailwind.css`
+
+## Related projects
+
+- [AstroWind](https://astrowind.vercel.app/) - A template using Astro 4.0 and Tailwind CSS. Astro starter theme.
+- [TailNext](https://tailnext.vercel.app/) - A template using Next.js 14 and Tailwind CSS with the new App Router.
+- [Qwind](https://qwind.pages.dev/) - A template to make your website using Qwik + Tailwind CSS.
+
+## Acknowledgements
+
+The template initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
+
+## License
+
+Licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
