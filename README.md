@@ -149,3 +149,89 @@ All commands are run from the root of the project, from a terminal :
 | `npm run format`      | Format codes with Prettier                         |
 | `npm run lint:eslint` | Run Eslint                                         |
 | `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
+
+## Configuration
+
+Basic configuration file: `./src/config.yaml`
+
+```yaml
+site:
+  name: LiQuid Dreams
+  site: 'https://liquiddreams.vercel.app'
+  base: '/'
+  trailingSlash: false # Generate permalinks with or without "/" at the end
+
+  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+
+# Default SEO metadata
+metadata:
+  title:
+    default: LiQuid Dreams
+    template: '%s — LiQuid Dreams'
+  description: "A vibrant space for self-expression with unique music, hypnotic visuals, and emerging DJs from around the world."
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: LiQuid Dreams
+    images:
+      - url: '~/assets/images/Poster_LiquidDreams_Volume.3_Square.jpg'
+        width: 800
+        height: 800
+    type: website
+  twitter:
+    handle: '@onwidget'
+    site: '@onwidget'
+    cardType: summary_large_image
+
+i18n:
+  language: en
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: true # If the blog will be enabled
+    postsPerPage: 6 # Number of posts per page
+
+    post:
+      isEnabled: true
+      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      robots:
+        index: true
+
+    list:
+      isEnabled: true
+      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      robots:
+        index: true
+
+    category:
+      isEnabled: true
+      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      robots:
+        index: true
+
+    tag:
+      isEnabled: true
+      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      robots:
+        index: false
+
+    isRelatedPostsEnabled: true # If a widget with related posts is to be displayed below each post
+    relatedPostsCount: 4 # Number of related posts to display
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null # or "G-XXXXXXXXXX"
+
+ui:
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+```
+
+#### Customize Design
+
+To customize Font families, Colors or more Elements refer to the following files:
+
+- `src/components/CustomStyles.astro`
+- `src/assets/styles/tailwind.css`
