@@ -12,7 +12,7 @@
 - 🟢 SEO: 100
 - ⚫️ Progressive Web App: N/A
 
-Project Structure
+## Project Structure
 
 ```
 .
@@ -22,6 +22,9 @@ Project Structure
 │   │   └── index.html
 │   ├── ics
 │   │   └── event_liquid-dreams-volume-3.ics
+│   ├── Images
+│   │   ├── Banner-Liquid.Dreams.Lighthouse.jpg
+│   │   └── Banner-Liquid.Dreams.jpg
 │   ├── _headers
 │   └── robots.txt
 ├── src
