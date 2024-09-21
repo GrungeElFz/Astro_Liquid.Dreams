@@ -12,6 +12,19 @@
 - 🟢 SEO: 100
 - ⚫️ Progressive Web App: N/A
 
+## Site
+
+View a live site of the [LiQuid Dreams's Page](http://liquiddreams.vercel.app) .
+
+## Tech Stack
+
+- [Astro](https://astro.build)
+- [TypeScript](https://www.typescriptlang.org)
+- [TailwindCSS](https://tailwindcss.com)
+- [Tailwind-Merge](https://github.com/dcastil/tailwind-merge)
+- [DaisyUI](https://daisyui.com)
+- [MDX](https://mdxjs.com)
+
 ## Project Structure
 
 ```
